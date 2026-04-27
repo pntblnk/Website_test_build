@@ -1,0 +1,27 @@
+ALEX RIVERA
+Autonomous Vehicle QA/Test Engineer
+
+Email: alex.rivera.qa@example.com
+Location: United States
+LinkedIn: linkedin.com/in/alexrivera-avqa
+
+SUMMARY
+Experienced QA/Test Engineer specializing in autonomous vehicle and ADAS validation,
+with strong expertise in scenario-based testing, safety-aligned verification, and CI-driven automation.
+
+EXPERIENCE
+Senior QA/Test Engineer, DriveFuture Robotics (2022-Present)
+Autonomy Validation Engineer, Horizon Mobility (2019-2022)
+QA Engineer (ADAS), Velocity Automotive (2016-2019)
+
+SKILLS
+- SIL/HIL testing
+- Autonomous systems validation
+- Python, Bash, SQL
+- ROS/ROS2, CARLA, CANoe
+- ISO 26262 and SOTIF
+
+PROJECT HIGHLIGHTS
+- Scenario Replay Regression Suite
+- Disengagement Intelligence Dashboard
+- Real-World Route Qualification Program
