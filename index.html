@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Rivera | Autonomous Vehicle QA/Test Engineer</title>
+    <meta
+      name="description"
+      content="Personal portfolio of an Autonomous Vehicle QA/Test Engineer with experience in validation, safety testing, and automation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand">Alex Rivera</a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          ☰
+        </button>
+        <nav class="site-nav" aria-label="Main Navigation">
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Autonomous Vehicle QA/Test Engineer</p>
+            <h1>Building safer autonomy through rigorous testing and validation.</h1>
+            <p class="hero-copy">
+              I design and execute end-to-end test strategies for ADAS and autonomous driving stacks,
+              blending simulation, hardware-in-the-loop, and real-world validation to deliver reliable,
+              safety-focused software releases.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a
+                href="assets/Autonomous_Vehicle_QA_Test_Engineer_Resume.txt"
+                class="btn btn-secondary"
+                download
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+          <div class="card stats-card">
+            <h2>At a Glance</h2>
+            <ul>
+              <li><span>8+</span> years in AV/ADAS QA and validation</li>
+              <li><span>1200+</span> test cases automated and maintained</li>
+              <li><span>35%</span> reduction in regression cycle times</li>
+              <li><span>0</span> critical escape defects in last 4 releases</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <h2>Experience</h2>
+          <div class="timeline">
+            <article class="card timeline-item">
+              <h3>Senior QA/Test Engineer — DriveFuture Robotics</h3>
+              <p class="meta">2022 – Present · Mountain View, CA</p>
+              <ul>
+                <li>Led validation strategy for Level 4 urban driving features across simulation and road testing.</li>
+                <li>Created risk-based test plans mapped to ISO 26262 and SOTIF safety requirements.</li>
+                <li>Integrated CI pipelines with nightly scenario replay, reducing issue detection time by 42%.</li>
+              </ul>
+            </article>
+
+            <article class="card timeline-item">
+              <h3>Autonomy Validation Engineer — Horizon Mobility</h3>
+              <p class="meta">2019 – 2022 · Austin, TX</p>
+              <ul>
+                <li>Built HIL and SIL test frameworks for perception and planning modules.</li>
+                <li>Collaborated with software and safety teams to triage, reproduce, and prioritize field defects.</li>
+                <li>Standardized KPI reporting for disengagements and false positive braking events.</li>
+              </ul>
+            </article>
+
+            <article class="card timeline-item">
+              <h3>QA Engineer (ADAS) — Velocity Automotive</h3>
+              <p class="meta">2016 – 2019 · Detroit, MI</p>
+              <ul>
+                <li>Executed feature-level validation for lane keeping, adaptive cruise control, and AEB.</li>
+                <li>Developed Python-based log analysis tools to accelerate root-cause investigations.</li>
+                <li>Partnered with suppliers on interface compliance and release readiness testing.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <article class="card">
+              <h3>Testing & Validation</h3>
+              <p>Scenario-based testing, regression strategy, SIL/HIL, route-based validation, KPI tracking</p>
+            </article>
+            <article class="card">
+              <h3>Tools & Platforms</h3>
+              <p>ROS/ROS 2, Carla, Vector CANoe, Jenkins, GitHub Actions, Jira, Docker</p>
+            </article>
+            <article class="card">
+              <h3>Programming</h3>
+              <p>Python, Bash, SQL, basic C++, telemetry log parsing, automated test framework development</p>
+            </article>
+            <article class="card">
+              <h3>Safety & Standards</h3>
+              <p>ISO 26262, SOTIF (ISO/PAS 21448), FMEA support, traceability matrix maintenance</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <article class="card project-card">
+              <h3>Scenario Replay Regression Suite</h3>
+              <p>
+                Built an automated replay suite for complex intersection and vulnerable road user scenarios,
+                integrated into nightly CI runs with pass/fail safety thresholds.
+              </p>
+            </article>
+            <article class="card project-card">
+              <h3>Disengagement Intelligence Dashboard</h3>
+              <p>
+                Designed a dashboard combining route metadata, environmental context, and disengagement logs to
+                prioritize reliability gaps by operational design domain.
+              </p>
+            </article>
+            <article class="card project-card">
+              <h3>Real-World Route Qualification Program</h3>
+              <p>
+                Implemented a route qualification checklist and scoring rubric that reduced re-validation churn and
+                improved release confidence for new deployment corridors.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container contact-wrap">
+          <div>
+            <h2>Contact</h2>
+            <p>Interested in collaborating on autonomy quality, safety validation, or test automation?</p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:alex.rivera.qa@example.com">alex.rivera.qa@example.com</a>
+            </p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/alexrivera-avqa</p>
+            <p><strong>Location:</strong> United States</p>
+          </div>
+          <form class="card contact-form" onsubmit="event.preventDefault(); this.reset(); alert('Thanks! Your message has been captured.');">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Alex Rivera. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
